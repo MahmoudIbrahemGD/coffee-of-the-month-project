@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/1.jpg);
+	height: 2000px;
+    background-size: cover;
+}
+.navbar{
+	width: 100%;
+	background-color: #6b3613b0;
+	height: 70px;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.navbar ul{
+	float: left;
+	list-style: none;
+	
+}
+.navbar ul li{
+	display: inline-block;
+	border-right: 1px solid white;
+	text-align: center;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 22px;
+    padding: 0 30px;
+    color: white;
+}
+.navbar .icn{
+	float: right;
+	color: white;
+}
+.navbar .icn i{
+	padding: 0 30px;
+    font-size: 20px;
+    border-right: 1px solid;
+}
+.form-inline{
+	float: right;
+    padding: 40px 100px;
+}
+img{
+	    margin-left: 110px;
+}
+
+.middle{
+	background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.middle .product {
+	width: 100%;
+	height: 50px;
+	background-color: #9e4104;
+}
+.middle .product ul{
+	list-style: none;
+	text-align: center;
+}
+.middle .product ul li{
+	display: inline-block;
+	    font-size: 20px;
+    padding: 9px 45px;
+    color: white;
+}
+.middle .hd-img{
+	background-image: url(img/2.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+}
+.middle .hd-img h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 130px;
+	padding: 65px;
+	color: white;
+}
+
+/**/
+.container .row .col{
+	border-left: 1px solid #a0833a;
+	border-bottom: 1px solid #a0833a;
+}
+.container .row .col h4{
+	padding-top: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.container .row .col p{
+	color: #a0833a;
+	font-family: 'Merriweather', serif;
+}
+.container .row h5{
+	color: white;
+}
+.container .row h5 span{
+	color: #a0833a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
